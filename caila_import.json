@@ -34,7 +34,7 @@
     "priority" : 0
   }, {
     "id" : 137797,
-    "path" : "/it`s me",
+    "path" : "/it`s me again",
     "description" : "test intent",
     "answer" : "I was wondering if after all these years you'd like to meet",
     "enabled" : true,
