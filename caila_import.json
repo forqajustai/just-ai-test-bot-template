@@ -15,7 +15,7 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 137438,
+    "id" : 137699,
     "path" : "/bye",
     "enabled" : true,
     "shared" : false,
@@ -24,7 +24,7 @@
     } ],
     "priority" : 0
   }, {
-    "id" : 137439,
+    "id" : 137700,
     "path" : "/hello",
     "enabled" : true,
     "shared" : false,
@@ -33,7 +33,7 @@
     } ],
     "priority" : 0
   }, {
-    "id" : 137440,
+    "id" : 137701,
     "path" : "/it`s me",
     "description" : "test intent",
     "answer" : "I was wondering if after all these years you'd like to meet",
@@ -52,6 +52,16 @@
     } ],
     "patterns" : [ ],
     "slots" : [ ],
+    "priority" : 0
+  }, {
+    "id" : 137793,
+    "path" : "/test test",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "test test"
+    } ],
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
