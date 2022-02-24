@@ -16,21 +16,21 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 1689,
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    } ],
-    "priority" : 0
-  }, {
-    "id" : 1690,
+    "id" : 1692,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "пока"
+    } ],
+    "priority" : 0
+  }, {
+    "id" : 1691,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
     } ],
     "priority" : 0
   } ],
