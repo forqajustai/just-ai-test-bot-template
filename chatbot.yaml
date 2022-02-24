@@ -3,7 +3,7 @@ name: zb-cailapub
 entryPoint: main.sc
 
 botEngine: v2
-language: en
+language: ru
 
 tests:
   include:

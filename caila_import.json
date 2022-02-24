@@ -1,131 +1,90 @@
 {
-  "project" : {
-    "id" : "intest_test_proj-122987104-nMU",
-    "name" : "intest_test_proj-122987104-nMU",
-    "folder" : "/jaicp"
-  },
-  "settings" : {
-    "language" : "en",
-    "spellingCorrection" : false,
-    "classificationAlgorithm" : "sts",
-    "timezone" : "Europe/Moscow",
-    "extendedSettings" : {
-      "useShared" : false
+    "project": {
+        "id": "zb-cailapub",
+        "name": "zb-cailapub",
+        "folder": "/"
     },
-    "shared" : false
-  },
-  "intents" : [ {
-    "id" : 137795,
-    "path" : "/bye",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "bye"
-    } ],
-    "priority" : 0
-  }, {
-    "id" : 137796,
-    "path" : "/hello",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "hello"
-    } ],
-    "priority" : 0
-  }, {
-    "id" : 137797,
-    "path" : "/it`s me again",
-    "description" : "test intent",
-    "answer" : "I was wondering if after all these years you'd like to meet",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "it`s me"
-    }, {
-      "text" : "this is me"
-    }, {
-      "text" : "that is me"
-    }, {
-      "text" : "that`s me"
-    }, {
-      "text" : "here i am"
-    } ],
-    "patterns" : [ ],
-    "slots" : [ ],
-    "priority" : 0
-  }, {
-    "id" : 137798,
-    "path" : "/test test",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "test test"
-    } ],
-    "patterns" : [ ],
-    "priority" : 0
-  } ],
-  "entities" : [ ],
-  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
-  "spellerDictionary" : [ ],
-  "systemEntities" : [ {
-    "name" : "duckling.number",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.ordinal",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.amount-of-money",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.distance",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.quantity",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.temperature",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.volume",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.time",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.date",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.time-of-day",
-    "version" : "v2",
-    "enabled" : false
-  }, {
-    "name" : "duckling.duration",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.phone-number",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.email",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.url",
-    "version" : "v2",
-    "enabled" : true
-  }, {
-    "name" : "duckling.interval",
-    "version" : "v2",
-    "enabled" : false
-  } ]
+    "settings": {
+        "language": "ru",
+        "spellingCorrection": false,
+        "classificationAlgorithm": "sts",
+        "timezone": "Europe/Moscow",
+        "extendedSettings": {
+      "tokenizerEngine": "mystem",
+            "useShared": false
+        }
+    },
+    "intents": [
+        {
+            "path": "/пока",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "пока",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        },
+        {
+            "path": "/привет",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "привет",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        }
+    ],
+    "entities": [],
+    "enabledSystemEntities": [
+        "duckling.number",
+        "duckling.time",
+        "duckling.duration",
+        "duckling.phone-number",
+        "duckling.email",
+        "duckling.url"
+    ],
+    "systemEntities": [
+        {
+            "name": "duckling.number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.time",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.duration",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.phone-number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.email",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.url",
+            "version": "v2",
+            "enabled": true
+        }
+    ]
 }
